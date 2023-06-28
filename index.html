@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
+    <title>Casa De Cambio </title>
+</head>
+
+<body onload = "devuelta()">
+    <h3> Casa de Cambio </h3>
+    <form class="formulario">
+        <p> Selecciona tu moneda a recibir:  </p>
+        <input type="radio" name="cambio" id="uno">Dolar
+        <input type="radio" name="cambio" id="dos">Euro
+        <input type="radio" name="cambio" id="tres">Real
+        <p> Ingrese monto en pesos:</p>
+        <input type="number" id="valor" min="1" max="999999999">
+        <br>
+        <br>
+        <input type="button" id="cotizador" value="Cotizar">
+
+    </form>
+
+    <div class="divis">
+        <h4 id="ultcambios" ></h4>
+    </div>
+
+    
+
+
+    <script src="/java.js"></script>
+</body>
+
+</html>

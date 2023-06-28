@@ -1,0 +1,43 @@
+body{
+    background-color: bisque;
+}
+
+h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.formulario{
+    margin: 20px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#uno{
+    width: 80px;
+    height: 15px;
+}
+
+#dos{
+    width: 80px;
+    height: 15px;
+}
+#tres{
+    width: 80px;
+    height: 15px;
+}
+
+
+#valor{
+    font-size: 20px;
+}
+
+#cotizador{
+    font-size: 20px;
+    border-radius: 12%;
+    background-color: pink;
+    color: black;
+}
